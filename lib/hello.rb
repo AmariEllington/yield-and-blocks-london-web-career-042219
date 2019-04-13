@@ -1,4 +1,3 @@
-def hello_t
   def hello_t(array)
     if block_given?
       i = 0
@@ -16,3 +15,4 @@ def hello_t
 end
 
 # call your method here!
+hello_t(array)
